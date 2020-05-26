@@ -1,0 +1,333 @@
+/* the head */
+a:hover{
+    text-decoration: none !important;
+}
+#head{   
+
+    height: 100vh;
+    margin-top: 0;
+
+    background-image: url('/betta\'b_habshea/IMG/photo-1549665948-1753136b6f5c.png');
+    
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+
+    position: relative !important;
+
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    
+ }
+
+ @media all and (max-width: 500px) { 
+
+    #head #mainNav > a{
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+        flex: 0 !important;
+    }
+    #head #mainNav{
+
+        justify-content: start !important;
+
+   
+    }
+    #head #mainNav  #Log_up{
+
+        /* width: 9px; */
+        margin: 0 !important;
+
+        display: flex;
+        flex-direction: column;
+
+    }
+    #head #mainNav  #Log_up > #log{
+
+        border-radius: 11px 11px 0px 0px !important;
+        /* position: relative; */
+
+
+    }
+    #head #mainNav  #Log_up > #sing{
+
+        border-radius: 0px 0px 11px 11px !important;
+        /* position: absolute; */
+    }
+
+    
+
+
+}
+
+
+ #head #mainNav{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+/* brand img */
+#head #mainNav  img{
+
+    border-radius: 50%;
+    justify-self: start;
+}
+/* brand name */
+#head #mainNav > a{
+
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+
+
+    margin-left: auto;
+    margin-right: 50px;
+
+    
+    width: 100%;
+    flex: 1;
+
+
+}
+/* log in sin up */
+#head #mainNav  #Log_up{
+
+    display: flex;
+    margin: 0;
+
+    height: 50px;
+
+    justify-self: end;
+
+
+}
+#head #mainNav  #Log_up > #log{
+
+    padding: 5px;
+    padding-top: 1px;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+
+    border-radius: 11px 0px 0px 11px;
+    border: solid orange;
+
+    margin: 0;
+
+
+}
+#head #mainNav  #Log_up > #sing{
+
+    padding: 5px;
+    padding-top: 1px;
+    color: orange;
+    background-color: transparent;
+    font-weight: bolder;
+
+    border: orange solid;
+    border-radius: 0px 11px 11px 0px;
+
+    margin: 0;
+
+}
+
+
+ /*head into_div*/
+ #head .container .row .col-12 #into_div{
+
+    flex: 1;
+
+    justify-self: center;
+
+    padding: 20px;
+    /* background-color: rgb(216, 213, 213); */
+    background: rgba(197,203,203,0.5);
+    border: 3px orange solid ;
+
+    border-radius: 20px;
+}
+
+
+ /* the #into_div #into_p*/
+ #head .container .row .col-12 #into_div #into_p{
+
+    font-size: xx-large;
+    font-weight: bolder;
+    color: orange;
+    text-align: center;
+
+    
+}
+
+/* the head button container */
+#head .container .row  .col #into_button{
+
+    justify-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+
+}
+/*the head button*/
+#head .container .row  .col #into_button #let_go{
+
+    /* background-color:  #985080;
+    border: 3px #e8e8f0 solid ;
+    color: #182860; */
+
+
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 11rem;
+
+    
+    /* justify-content: center; */
+    
+   
+}
+
+#baner{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    background-color: powderblue;
+}
+#baner #text{
+
+    color: rgb(0, 89, 255);
+    font-size: xx-large;
+    font-weight: bolder;
+
+
+}
+
+
+
+#download{
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 100%;
+    height: 100vh;
+    
+    margin-top: 30px;
+
+    background-color: rgb(40, 5, 44);
+}
+
+/* download img */
+#download #cover_magazine{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+    border: 2px solid white;
+
+}
+
+
+/* download text */
+
+#download > p{
+
+    display: block;
+
+    font-weight: normal;
+
+    max-width: 500px;
+
+    margin-bottom: 20px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    text-align: center;
+
+    color: wheat;
+
+
+}
+
+
+
+/* #dropdownitem */
+
+#download  #ed #dropdownMenu1{
+
+    padding: 10px;
+
+    background-color: transparent;
+    color: white;
+
+    border: 2px solid white;
+
+    margin-top: 20px;
+
+
+}
+#download  #ed #dropdownitem{
+
+    padding: 0;
+    max-height: 200px;
+    overflow-y: scroll;
+  
+
+
+
+}
+#download  #ed #dropdownitem > button{
+
+    width: 100%;
+    border-radius: 0;
+
+
+
+}
+
+
+/* download button */
+
+#download  #get{
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 50%;
+
+    padding: 10px;
+
+    background-color: transparent;
+    color: white;
+
+    border: 2px solid white;
+
+}
+
+
+
+
+
+
+

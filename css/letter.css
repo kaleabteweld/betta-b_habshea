@@ -1,0 +1,22 @@
+#Editor_Letter{
+    
+
+    background-image: url('/betta\'b_habshea/IMG/close-up-photo-ofg-light-bulb-716398.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: 100%;
+    background-size: 100% 100%;
+}
+
+
+#Editor_Lette #text_el{
+
+    display: block;
+
+    font-size: medium;
+    font-weight: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: red !important;
+
+}
+

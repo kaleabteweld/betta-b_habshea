@@ -1,0 +1,205 @@
+@media all and (max-width: 500px) { 
+
+
+    #Form .col-12 #conter #form{
+
+    
+        height: 300px;
+        width: 300px;
+        overflow-y: scroll;
+    
+        
+    }
+    #Form .col-12 #conter{
+
+    
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-around;
+        align-items: center;
+
+    
+    }
+    #Form .col-12 #conter #fb{
+    
+        border-radius: 0rem !important; 
+    }
+    /* #Form .col-12 #conter #fb{
+        
+        max-width: 100% !important;
+        
+    } */
+
+    /* #Form .col-12 #conter #video{
+
+ 
+        
+        position: relative;
+    
+        height: 100%;
+    
+        overflow: hidden;
+    
+        z-index: 0;
+    
+    } */
+}
+
+
+#Form .col-12{
+
+    height: 100vh;
+    padding: 0 !important;
+
+}
+#Form .col-12 #conter{
+
+
+
+    /* border: black 5px solid ; */
+
+    background-image: url("/betta\'b_habshea/IMG/blur-business-coffee-commerce-273222.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+#Form .col-12 #conter #fb{
+    
+    /* border-radius: 10rem; */
+
+    max-width: 100%;
+
+    background-color: #393939;
+    color: #fd6f6b;
+
+    display: flex;
+    justify-content: center;
+}
+#Form .col-12 #conter #fb > p{
+    
+
+    width: 70%;
+    color: #fd6f6b;
+    
+
+}
+
+/* #Form .col-12 #conter #video{
+
+ 
+   
+    position: relative;
+
+    height: 110%;
+
+    overflow: hidden;
+
+    z-index: 0;
+
+} */
+
+
+#Form .col-12 #conter #form{
+
+
+    /* border: green 2px solid; */
+
+    max-width: 100vw;
+    justify-self: center;
+
+    z-index: 1;
+
+    /* width: 100%; */
+    /* position: absolute;
+    left: 10%; */
+
+
+
+    
+}
+
+
+
+
+/*                                              form css                            */
+
+
+
+#Form .col-12 #conter #form{
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+    border: 4px solid #fd6f6b;
+
+    border-radius: 11px;
+}
+#Form .col-12 #conter #form #T{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#Form .col-12 #conter #form #T .form-group{
+
+    flex: 1 1 200px;
+}
+
+#Form .col-12 #conter #form .form-group{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#Form .col-12 #conter #form .form-group label{
+
+    align-self: center; 
+    font-weight: bolder;
+    color: skyblue;
+}
+#Form .col-12 #conter #form .form-group input{
+
+    border-radius: 11rem; 
+    background-color: #393939; 
+    color: #f3dd53; 
+}
+#Form .col-12 #conter #form .form-group textarea{
+
+    border-radius: 20px;
+    background-color: #393939; 
+    color: #f3dd53;
+}
+
+#Form .error{
+    border: crimson 2px solid;
+
+}
+
+
+
+/*                                              fb                           */
+
+#fb{
+    margin: 0;
+}
+#fb > p{
+    
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(251, 206, 122);
+}

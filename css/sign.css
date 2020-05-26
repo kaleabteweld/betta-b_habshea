@@ -1,0 +1,283 @@
+body{   
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("/betta'b_habshea/IMG/photo-1501386761578-eac5c94b800a.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media all and (max-width: 500px) { 
+
+    #bace #a #form .T{
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+    #bace #a #form .T > .form-group{
+    
+    
+        margin-left: 0px !important;
+       
+        flex: 1;
+    }
+    body{   
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    
+        background-image: url("/betta'b_habshea/IMG/photography-of-fall-trees-1591447.jpg");
+
+        
+
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+        
+
+
+    }
+    #bace #nav > #home{
+    
+        margin-right: auto !important;
+        margin-left: auto !important;
+        
+
+    
+    
+    
+    
+    }
+    #bace #a #form .form-group label{
+
+        align-self: center; 
+        font-weight: bolder;
+        color: #EB6D00 !important;
+    }
+    #bace #a #form .form-group input{
+
+        border-radius: 11rem;   
+        background-color: #191919 !important;
+        color: #EB6D00 !important;
+    }
+    #bace #a{
+
+
+        border: #823A00 solid !important;
+    
+
+    
+    }
+    #bace #a #ok{
+
+        margin-bottom: 100px;
+    }
+    
+
+
+}
+
+/* bace */
+#bace{
+    
+    margin: 0;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+/* nav */
+
+#bace #nav{
+    
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+
+    margin-bottom: 5vh;
+}
+#bace #nav > #home{
+    
+    margin-right: auto;
+    margin-left: 20px;
+    
+    font-size: large;
+    font-weight: bolder;
+    color: wheat;
+
+    background-color: transparent;
+    border: wheat 2px solid;
+
+    padding: 10px;
+
+
+
+
+}
+
+/* a or thr body */
+#bace #a{
+
+    width: auto;
+
+    padding: 40px;
+    border: #eC7C26 solid;
+
+    border-radius: 20px;
+
+}
+
+/* form */
+#bace #a #form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .T */
+#bace #a #form .T{
+
+    width: 100%;
+
+    display: flex;
+
+}
+#bace #a #form .T > .form-group{
+
+    margin-left: 20px;
+    width: 100%;
+}
+
+#bace #a #form .form-group{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+#bace #a #form .form-group label{
+
+    align-self: center; 
+    font-weight: bolder;
+    color: wheat;
+}
+#bace #a #form .form-group input{
+
+    border-radius: 11rem;   
+    background-color: #1e1e1e !important;
+    color: #2271b2 !important;
+}
+
+/* button */
+#bace #a #form #post{
+    background-color: #191919 !important;
+    color: #EB6D00 !important;
+    font-weight: bolder;
+    border: 0;
+}
+/* #bace #a #form #post:hover{
+
+} */
+
+
+#bace #a #other{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* break */
+#bace #a #break{
+
+    
+    border-color: tomato;
+    border-width: 2px;
+}
+
+
+
+/* other */
+
+#bace #a #form  > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}
+#bace #a #form .T > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}
+
+
+/* welcome */
+#bace #a #ok{
+
+    padding: 20px;
+
+   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+/* head */
+#bace #a #ok > #head{
+
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    color: #eC7C26;
+
+    padding: 15px;
+    
+
+    border: #c93c20 solid;
+
+    flex: 1;
+    min-width: 100%;
+ 
+}
+
+/* nane */
+#bace #a #ok > #name{
+
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: #1e1e1e; */
+
+    padding: 20px;
+
+    flex: 1;
+    min-width: 100%;
+}
+#bace #a #ok > #name > p{
+
+    flex: 1;
+
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    color: #2271b2;
+
+    margin: 0;
+}
+
+/* start */
+#bace #a #ok > #start{
+
+    margin: auto;
+}

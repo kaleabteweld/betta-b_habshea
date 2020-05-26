@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("/betta'b_habshea/IMG/background-blur-clean-clear-531880.jpg");
+    background-size: 100% 100%;
+}
+
+
+@media all and (max-width: 500px) { 
+
+
+    body{   
+        margin: 0;
+        width: 100vw;
+        max-height: 100%;
+
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    #bace #nav > #home{
+    
+        margin-right: auto !important;
+        margin-left: auto !important;
+        
+
+    
+    
+    
+    
+    }
+    #bace #a{
+        width: 100% !important;
+        padding: 20px !important;
+        border: transparent !important;
+    }
+    #bace #nav > #home{
+        background-color: darkgrey !important;
+        border-radius: 11rem; 
+    }
+    #bace #a #other{
+
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #bace #a #other > button{
+
+        flex: 1;
+        margin-top: 10px;
+    }
+    #bace #nav{
+        margin-bottom: 5vh !important;
+    }
+}
+
+
+/* bace */
+#bace{
+    
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+/* nav */
+
+#bace #nav{
+    
+    margin-top: 10px;
+
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+
+    margin-bottom: 10vh;
+}
+#bace #nav > #home{
+    
+    margin-right: auto;
+    margin-left: 20px;
+    
+    font-size: large;
+    font-weight: bolder;
+    color: wheat;
+
+    background-color: transparent;
+    border: wheat 2px solid;
+
+    padding: 10px;
+
+
+
+
+}
+
+/* a or thr body */
+#bace #a{
+
+    width: 500px;
+
+    padding: 40px;
+    border: #1b4338 solid;
+
+    border-radius: 20px;
+
+}
+
+/* form */
+#bace #a #form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+#bace #a #form .form-group{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+#bace #a #form .form-group label{
+
+    align-self: center; 
+    font-weight: bolder;
+    color: black;
+}
+#bace #a #form .form-group input{
+
+    border-radius: 11rem;   
+    background-color: #1e1e1e !important;
+    color: #2E8fa2 !important;
+}
+
+
+#bace #a #other{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* break */
+#bace #a #break{
+
+    
+    border-color: #feffff;
+    border-width: 2px;
+}
+
+
+/* other */
+
+#bace #a #form  > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}
+#bace #a #form .T > .form-group .invalid-feedback > p{
+    margin: 0px;
+    font-weight: bolder;
+}
